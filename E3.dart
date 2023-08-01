@@ -4,46 +4,33 @@ import 'dart:io';
 void main()
 {
     print("Enter any number");
-    int number=int.parse(stdin.reLineSync().toString());
+    int number=int.parse(stdin.readLineSync().toString());
 
-    switch(number)
+    switch(number){
         case 1:
-        {
             print("monday");
-        }
-        break;
+            break;
         case 2:
-        {
             print("tuesday");
-        }
-        break;
+            break;
         case 3:
-        {
             print("wednesday");
-        }break;
+            break;
         case 4:
-        {
             print("thursday");
-        }
-        break;
+            break;
         case 5:
-        {
             print("friday");
-        }
-        break;
+            break;
         case 6:
-        {
             print("saturday");
-        }
-        break;
+            break;
         case 7:
-        {
             print("sunday");
-        }
-        break;
+            break;
         default:
-        {
             print("plz enter number");
-        }
-        break;
+            break;
+        
+    }
 }

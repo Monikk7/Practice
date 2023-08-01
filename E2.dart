@@ -23,7 +23,7 @@ void main()
     {
         print("3 RS");
     }
-    else(unit < 300)
+    else
     {
         print("5 RS");
     }
